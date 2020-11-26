@@ -1,4 +1,4 @@
-// Your code here
+// Map-like methods
 const mapToNegativize = function(sourceArray) {
   const newArray = sourceArray.map(x => x * -1);
   return newArray;
@@ -18,3 +18,5 @@ const mapToSquare = function(sourceArray) {
   const newArray = sourceArray.map(x => x ** 2);
   return newArray;
 };
+
+// Reduce-like methods
