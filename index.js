@@ -32,5 +32,5 @@ const reduceToAllTrue = function(sourceArray) {
 
 const reduceToAnyTrue = function(sourceArray) {
   const reducer = (accumulator, currentValue) => currentValue ? true : false;
-  return sourceArray.reduce(reducer, startingPoint);
+  return sourceArray.reduce(reducer);
 };
