@@ -24,3 +24,8 @@ const reduceToTotal = function(sourceArray, startingPoint = 0) {
   const reducer = (accumulator, currentValue) => accumulator + currentValue;
   return sourceArray.reduce(reducer, startingPoint);
 };
+
+const reduceToAllTrue = function(sourceArray) {
+  const reducer = (accumulator, currentValue) => currentValue ? true : false;
+  return sourceArray.reduce(reducer);
+};
