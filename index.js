@@ -13,3 +13,8 @@ const mapToDouble = function(sourceArray) {
   const newArray = sourceArray.map(x => x * 2);
   return newArray;
 };
+
+const mapToSquare = function(sourceArray) {
+  const newArray = sourceArray.map(x => x ** 2);
+  return newArray;
+};
