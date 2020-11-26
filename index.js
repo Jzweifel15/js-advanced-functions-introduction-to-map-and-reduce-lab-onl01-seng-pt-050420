@@ -29,3 +29,8 @@ const reduceToAllTrue = function(sourceArray) {
   const reducer = (accumulator, currentValue) => currentValue ? true : false;
   return sourceArray.reduce(reducer);
 };
+
+const reduceToAnyTrue = function(sourceArray) {
+  const reducer = (accumulator, currentValue) => currentValue ? true : false;
+  return sourceArray.reduce(reducer, startingPoint);
+};
